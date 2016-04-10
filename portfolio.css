@@ -1,4 +1,3 @@
-
 body {
   background-image: url(http://www.photos-public-domain.com/wp-content/uploads/2011/03/white-linen-paper-texture.jpg);
   background-attachment: fixed;
@@ -22,23 +21,22 @@ h2 {color: black;
 }
 img.align-left {
   float: left;
-  margin-right: 10px;
-  margin-left: 150px;
+  margin-right: 150px;
+  margin-left: 50px;
   border-radius: 30px;
   border-style: solid;
   border-color: black;
 }
 img.align-right {
-  float: right;
-  margin-left: : 10px;
-  margin-right: 150px;
+
+  margin-left: : 150px;
+  margin-right: 50px;
   border-radius: 30px;
   border-style: solid;
   border-color: black;
 }
 img.align-center {
-  margin-left: 50px;
-  margin-right: auto;
+  margin-right: 150px;
   border-radius: 30px;
   border-style:solid;
   border-color: black;
@@ -154,7 +152,27 @@ p.year {
   font-size: 40px;
   text-decoration: none;
 }
-footer {font: white;
+footer {color: white;
+  font-family: 'Noto Serif', serif;
+  font-size: 15px;
+  text-align: left;
+  list-style-type: none;
+  margin: 1px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+a {color: blue;
+  padding-left: 10px;
+}
+a.source {
+  color: blue;
+
+/*footer {font: white;
   font-family: 'Noto Serif', serif;
   font-size: 10px;
   text-align: left;
@@ -167,4 +185,181 @@ footer {font: white;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+}*/
+
+
+/*body {
+  background-image: url(http://www.photos-public-domain.com/wp-content/uploads/2011/03/white-linen-paper-texture.jpg);
+  background-attachment: fixed;
 }
+h1 {color: white;
+  font-family: 'Noto Serif', serif;
+  font-size: 60px;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+h2 {color: black;
+  font-family: cursive;
+  font-size: 40px;
+  text-align: center;
+}
+img.align-left {
+  float: left;
+  margin-right: 25px;
+  margin-left: 0px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: black;
+}
+img.align-right {
+  float: right;
+  margin-left: : 50px;
+  margin-right: 0px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: black;
+}
+img.align-center {
+  margin-left: 50px;
+  margin-right: 0px;
+  border-radius: 30px;
+  border-style:solid;
+  border-color: black;
+}
+img.teams {
+  width: 250px;
+  height: 250px;
+  opacity: 0.8;
+  box-shadow: -15px -15px black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #212121;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: blue;
+}
+blockquote {
+  color: black;
+  font-family: cursive;
+  font-size: 25px;
+}
+p {
+  color: black;
+  font-family:cursive;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+fieldset {
+  width: 310px;
+  margin-top: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  line-height: 1.6em;
+}
+legend {
+  font-style: cursive;
+  color: #666666;
+}
+input[type="text"] {
+  width: 120px;
+  border: 1px solid #d6d6d6;
+  padding: 2px;
+  outline: none;
+}
+input[type="text"]:focus,
+input[type="text"]:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+input[type=submit] {
+  border-radius: 10px;
+  border-style: solid 1px;
+  border-color: black;
+  width: 340px;
+  height: 25px;
+  margin-top: 10px;
+  font-family: cursive;;
+  background: orange;
+  box-shadow: -2px -2px black;
+}
+input[type="submit"]:hover {
+  border: 1px solid black;
+  background-color: blue;
+  color: #fffff;
+  cursor: pointer;
+}
+.title {
+  float: left;
+  width: 160px;
+  clear: left;
+  color: black;
+  font-family: cursive;
+  font-size: 15px;
+}
+.submit {
+  width: 310px;
+  text-align: right;
+}
+legend {
+  color: black;
+  font-family: cursive;
+  font-size: 20px;
+}
+#team {
+  color: black;
+  font-family: cursive;
+  font-size: 30px;
+  float:none;
+}
+p.year {
+  color: black;
+  font-family: cursive;
+  font-size: 40px;
+  text-decoration: none;
+}
+footer {color: white;
+  font-family: 'Noto Serif', serif;
+  font-size: 15px;
+  text-align: left;
+  list-style-type: none;
+  margin: 1px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+a {color: white;
+  padding-left: 10px;
+}
+a.source {
+  color: black;
+}*/
